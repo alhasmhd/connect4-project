@@ -22,7 +22,7 @@ function guidGenerator() {
 }
 
 // Serve static files from public directory
-app.use(express.static('public'))
+app.use(express.static('.'))
 
 // API key validation middleware
 app.use('/api', function(req, res, next) {
@@ -115,4 +115,5 @@ app.use(function(req, res) {
 app.listen(3000, () => {
   console.log('Server running at http://localhost:3000')
   console.log('Game available at: http://localhost:3000/connect4.html')
+
 })
