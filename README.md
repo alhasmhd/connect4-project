@@ -4,7 +4,7 @@ A complete Connect Four game for WBE Practical Exercises 8-12.
 
 ## 🎮 Play the Game Now!
 **The live game is hosted on GitHub Pages:**  
-👉 **[https://alhasmhd.github.io/connect4-project/connect4.html](https://alhasmhd.github.io/connect4-project/connect4.html)**
+👉 **[https://alhasmhd.github.io/connect4-project/connect4.html](https://alhasmhd.github.io/connect4-project/)**
 
 ---
 ## 🎯 How to Play
