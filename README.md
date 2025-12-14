@@ -2,47 +2,20 @@
 
 A complete Connect Four game for WBE Practical Exercises 8-12.
 
-## How to Start
+## 🎮 Play the Game Now!
+**The live game is hosted on GitHub Pages:**  
+👉 **[https://alhasmhd.github.io/connect4-project/connect4.html](https://alhasmhd.github.io/connect4-project/connect4.html)**
 
-1. **Install dependencies:**
-```bash
-npm install
-Start the server:
+---
+## 🎯 How to Play
+- Click on any column to drop your piece
+- Connect four in a row (horizontal, vertical, or diagonal) to win
+- Blue starts first
+- Use Undo button to take back moves
+- Save/Load your game progress
 
-bash
-node index.js
-Open in browser:
+## 🚀 GitHub Pages Deployment
+This project is automatically deployed via GitHub Pages from the `main` branch. Any changes pushed to the repository will be live within minutes.
 
-Game: http://localhost:3000/connect4.html
-
-Documentation: http://localhost:3000/documentation.html
-
-How to Play
-Click on any column to drop your piece
-
-Connect four in a row (horizontal, vertical, or diagonal) to win
-
-Blue starts first
-
-Use Undo button to take back moves
-
-Save/Load your game
-
-Fullscreen Mode
-Press F11 (Windows/Linux) or Control+Command+F (Mac)
-
-Project Structure
-text
-├── index.js                   # Server
-├── package.json               # Dependencies
-├── public/
-│   ├── connect4.html          # Game
-│   ├── styles.css             # Styles
-│   └── documentation.html     # Documentation
-└── README.md                  # This file
-Quick Troubleshooting
-If port 3000 is busy: taskkill /f /im node.exe (Windows) or pkill -f node (Mac/Linux)
-
-If modules missing: npm install express
-
-Developed for WBE Practical Exercises 8-12.
+---
+*Developed for WBE Practical Exercises 8-12.*
